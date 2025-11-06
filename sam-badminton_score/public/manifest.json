@@ -1,0 +1,26 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "badminton-scores.vercel",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "badminton-scores.vercel",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://badminton-scores.vercel.app/vite.svg",
+      "type": "image/svg+xml",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ],
+  "description": "Take your badminton games to the next level!\nSam – Badminton Scorer helps you easily track, manage, and share your match scores — whether you’re playing singles or doubles. No more confusion with scores or arguments over who’s serving next — the app keeps everything simple and automatic."
+}
