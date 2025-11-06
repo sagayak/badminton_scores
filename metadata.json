@@ -1,0 +1,5 @@
+{
+  "name": "Badminton Scorekeeper",
+  "description": "A sleek and modern scorekeeper for your badminton matches. Set team names, choose singles or doubles, and define the winning score to start tracking your game with an intuitive interface.",
+  "requestFramePermissions": []
+}
