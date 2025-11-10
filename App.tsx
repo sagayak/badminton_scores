@@ -33,9 +33,6 @@ export default function App() {
           <SetupScreen onGameStart={handleGameStart} />
         )}
       </div>
-       <footer className="text-center mt-8 text-slate-500 text-sm">
-          <p>Built by a world-class senior frontend React engineer.</p>
-        </footer>
     </main>
   );
 }

@@ -12,6 +12,7 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart }) => {
   const [teamBName, setTeamBName] = useState('Team B');
   const [maxScore, setMaxScore] = useState(21);
   const [gameMode, setGameMode] = useState<GameMode>(GameMode.Doubles);
+  const [bestOf, setBestOf] = useState(3);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -21,6 +22,7 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart }) => {
         teamBName: teamBName.trim(),
         maxScore,
         gameMode,
+        bestOf,
       });
     }
   };
@@ -87,6 +89,22 @@ const SetupScreen: React.FC<SetupScreenProps> = ({ onGameStart }) => {
             <option value={15}>15</option>
             <option value={21}>21</option>
             <option value={30}>30</option>
+          </select>
+        </div>
+
+        <div>
+          <label htmlFor="bestOf" className="block text-sm font-medium text-slate-300 mb-2">
+            Best Of
+          </label>
+          <select
+            id="bestOf"
+            value={bestOf}
+            onChange={(e) => setBestOf(Number(e.target.value))}
+            className="w-full bg-slate-700 border border-slate-600 rounded-md py-2 px-3 text-white focus:ring-lime-500 focus:border-lime-500 transition"
+          >
+            <option value={1}>1</option>
+            <option value={3}>3</option>
+            <option value={5}>5</option>
           </select>
         </div>
 
