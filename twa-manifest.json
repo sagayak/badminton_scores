@@ -1,0 +1,52 @@
+{
+  "packageId": "app.tasks.vercel.com",
+  "host": "tasks-six-gamma.vercel.app/",
+  "name": "My TWA",
+  "launcherName": "Tasks",
+  "display": "fullscreen",
+  "themeColor": "#FFFFFF",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "https://tasks-six-gamma.vercel.app/",
+  "iconUrl": "https://tasks-six-gamma.vercel.app/",
+  "maskableIconUrl": "https://tasks-six-gamma.vercel.app/",
+  "monochromeIconUrl": "https://tasks-six-gamma.vercel.app/'",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "santhosh",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://badminton-scores.vercel.app/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://badminton-scores.vercel.app/",
+  "minSdkVersion": 21,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "displayOverride": [],
+  "appVersion": "1"
+}
