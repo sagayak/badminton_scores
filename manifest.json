@@ -4,7 +4,7 @@
   "short_name": "Badminton Scorer",
   "description": "Take your badminton games to the next level! Sam – Badminton Scorer helps you easily track, manage, and share your match scores — whether you’re playing singles or doubles.",
   "start_url": "https://badminton-scores.vercel.app/",
-  "scope": "/",
+  "scope": "https://badminton-scores.vercel.app/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
