@@ -9,10 +9,13 @@ export interface GameSettings {
   teamAName: string;
   teamBName: string;
   gameMode: GameMode;
+  bestOf: number;
 }
 
 export interface GameState {
     scoreA: number;
     scoreB: number;
     server: 'A' | 'B' | null;
+    gamesWonA: number;
+    gamesWonB: number;
 }
